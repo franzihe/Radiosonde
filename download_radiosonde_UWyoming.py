@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.9.1
+#       jupytext_version: 1.10.2
 #   kernelspec:
 #     display_name: Python 3
 #     language: python
@@ -34,10 +34,8 @@ stn = '01415' #1415 is ID for Stavanger
 fct.createFolder('/home/franzihe/Documents/Data/Sounding/{}'.format(stn)) # for text files
 # -
 
-m = [#'12','01', 
-     '02']
-h = [#'00', 
-    '12']
+m = ['12','01', '02']
+h = ['00', '12']
 
 for month in m:
     if month == '12':
